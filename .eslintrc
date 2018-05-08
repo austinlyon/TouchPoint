@@ -1,0 +1,12 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "no-console": 0,
+    "brace-style": [1, "stroustrup"]
+  },
+  "globals": {
+    "moment": true,
+    "$": true,
+    "_": true
+  }
+}
