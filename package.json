@@ -4,7 +4,8 @@
   "description": "TouchPoint helps you keep in touch with friends and acquaintances by allowing you to timestamp and comment on interactions.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.7.0"
+    "eslint-plugin-react": "^7.7.0",
+    "webpack": "^4.8.2"
   }
 }
